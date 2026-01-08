@@ -1,0 +1,11 @@
+[project]
+name = "mcp-logger"
+version = "0.1.0"
+description = "MCP server for logging workouts, nutrition, and body metrics."
+authors = ["Cline <cline@example.com>"]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=0.2.0",
+    "pydantic>=2.6.0",
+]
