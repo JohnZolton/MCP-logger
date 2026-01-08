@@ -2,6 +2,8 @@
 
 A Python/`uv` + FastMCP server for logging workouts, nutrition, and body metrics. Single-user local SQLite database with stdio MCP interface.
 
+- this was entirely vibe coded
+
 ## Features
 
 - **Workouts**: Flexible `workout -> exercises[] -> sets[]` structure with tags, notes, RPE/RIR, distances, unilateral sides, etc.
@@ -145,4 +147,5 @@ Each set can include:
   "notes": "Morning measurement"
 }
 ```
+
 # MCP-logger
